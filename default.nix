@@ -27,6 +27,6 @@ pkgs.stdenv.mkDerivation {
 
   installPhase = ''
     mkdir -p $out/share
-    cp skk-emoticon.utf8 $out/share/skk-emoticon.utf
+    cp skk-emoticon.utf8 $out/share/skk-emoticon.utf8
   '';
 }
