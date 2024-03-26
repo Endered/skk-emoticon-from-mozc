@@ -3,7 +3,7 @@
 }:
 let
   mozc-dictionary = pkgs.fetchurl {
-    url = "https://raw.githubusercontent.com/google/mozc/master/src/data/emoticon/emoticon.tsv";
+    url = "https://github.com/google/mozc/blob/d3816084be54223f69308b9ede394a02e26753b8/src/data/emoticon/emoticon.tsv";
     hash = "sha256-NmVYs4C+8H3aJoIskQDR76vuU595YbLGNj1GFMSnYsQ=";
   };
 in
